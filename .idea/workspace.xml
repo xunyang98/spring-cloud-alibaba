@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54f241ad-36af-4152-b159-54cf303a752f" name="Default Changelist" comment="" />
+    <list default="true" id="54f241ad-36af-4152-b159-54cf303a752f" name="Default Changelist" comment="Nacos注册中心">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/src/main/java/com/xunyang/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/src/main/java/com/xunyang/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/src/main/java/com/xunyang/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/src/main/java/com/xunyang/feign/ProductServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/src/main/java/com/xunyang/feign/StockServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/src/main/java/com/xunyang/intercepter/feign/CustomFeignIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/target/classes/com/xunyang/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-openfeign/target/classes/com/xunyang/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-ribbon/src/main/java/com/xunyang/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-ribbon/src/main/java/com/xunyang/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-ribbon/src/main/java/com/xunyang/ribbon/RibbonRandomRuleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-ribbon/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-ribbon/target/classes/com/xunyang/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-ribbon/target/classes/com/xunyang/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/src/main/java/com/xunyang/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/src/main/java/com/xunyang/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/target/classes/META-INF/product-nacos.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/target/classes/com/tulingxueyuan/product/ProductApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/target/classes/com/tulingxueyuan/product/controller/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-nacos/target/classes/com/tulingxueyuan/stock/controller/StockController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +57,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -25,6 +74,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2NMJcvA82BQXOTvinh63PxP6DAI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +87,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -48,7 +101,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -62,7 +115,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StockApplication_8021">
+  <component name="RunManager" selected="Spring Boot.OrderApplication_8040">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -83,6 +136,49 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xunyang.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication_8030" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="order-ribbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xunyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xunyang.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication_8040" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="order-openfeign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xunyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xunyang.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tulingxueyuan.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication_8023" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xunyang.ProductApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,13 +223,18 @@
       <item itemvalue="Spring Boot.OrderApplication_8020" />
       <item itemvalue="Spring Boot.StockApplication_8021" />
       <item itemvalue="Spring Boot.StockApplication_8022" />
+      <item itemvalue="Spring Boot.OrderApplication_8030" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.ProductApplication_8023" />
+      <item itemvalue="Spring Boot.OrderApplication_8040" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderApplication_8040" />
         <item itemvalue="Spring Boot.StockApplication_8022" />
         <item itemvalue="Spring Boot.StockApplication_8021" />
+        <item itemvalue="Spring Boot.OrderApplication_8030" />
         <item itemvalue="Spring Boot.OrderApplication_8020" />
-        <item itemvalue="Spring Boot.StockApplication_8022" />
       </list>
     </recent_temporary>
   </component>
@@ -145,58 +246,90 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679468101990</updated>
-      <workItem from="1679468103414" duration="7815000" />
+      <workItem from="1679468103414" duration="22452000" />
     </task>
+    <task id="LOCAL-00001" summary="Nacos注册中心">
+      <created>1679538822897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679538822897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nacos注册中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nacos注册中心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="187" y="49" width="1173" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1679468817130">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="187" y="49" width="1173" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.783@0.0.1463.783" timestamp="1679468817130" />
-    <state x="512" y="149" key="FileChooserDialogImpl" timestamp="1679468168053">
+    <state x="537" y="110" key="#com.intellij.ide.util.MemberChooser" timestamp="1679624229291">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="512" y="149" key="FileChooserDialogImpl/0.0.1463.783@0.0.1463.783" timestamp="1679468168053" />
-    <state width="962" height="334" key="GridCell.Tab.0.bottom" timestamp="1679536530558">
+    <state x="537" y="110" key="#com.intellij.ide.util.MemberChooser/0.0.1463.783@0.0.1463.783" timestamp="1679624229291" />
+    <state x="273" y="317" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1679559513925">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="962" height="334" key="GridCell.Tab.0.bottom/0.0.1463.783@0.0.1463.783" timestamp="1679536530558" />
-    <state width="962" height="334" key="GridCell.Tab.0.center" timestamp="1679536530558">
+    <state x="273" y="317" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1463.783@0.0.1463.783" timestamp="1679559513925" />
+    <state x="512" y="149" key="FileChooserDialogImpl" timestamp="1679538708916">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="962" height="334" key="GridCell.Tab.0.center/0.0.1463.783@0.0.1463.783" timestamp="1679536530558" />
-    <state width="962" height="334" key="GridCell.Tab.0.left" timestamp="1679536530558">
+    <state x="512" y="149" key="FileChooserDialogImpl/0.0.1463.783@0.0.1463.783" timestamp="1679538708916" />
+    <state width="962" height="221" key="GridCell.Tab.0.bottom" timestamp="1679627050494">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="962" height="334" key="GridCell.Tab.0.left/0.0.1463.783@0.0.1463.783" timestamp="1679536530558" />
-    <state width="962" height="334" key="GridCell.Tab.0.right" timestamp="1679536530558">
+    <state width="962" height="221" key="GridCell.Tab.0.bottom/0.0.1463.783@0.0.1463.783" timestamp="1679627050494" />
+    <state width="962" height="221" key="GridCell.Tab.0.center" timestamp="1679627050494">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="962" height="334" key="GridCell.Tab.0.right/0.0.1463.783@0.0.1463.783" timestamp="1679536530558" />
-    <state width="962" height="334" key="GridCell.Tab.1.bottom" timestamp="1679536530558">
+    <state width="962" height="221" key="GridCell.Tab.0.center/0.0.1463.783@0.0.1463.783" timestamp="1679627050494" />
+    <state width="962" height="221" key="GridCell.Tab.0.left" timestamp="1679627050494">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="962" height="334" key="GridCell.Tab.1.bottom/0.0.1463.783@0.0.1463.783" timestamp="1679536530558" />
-    <state width="962" height="334" key="GridCell.Tab.1.center" timestamp="1679536530558">
+    <state width="962" height="221" key="GridCell.Tab.0.left/0.0.1463.783@0.0.1463.783" timestamp="1679627050494" />
+    <state width="962" height="221" key="GridCell.Tab.0.right" timestamp="1679627050494">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="962" height="334" key="GridCell.Tab.1.center/0.0.1463.783@0.0.1463.783" timestamp="1679536530558" />
-    <state width="962" height="334" key="GridCell.Tab.1.left" timestamp="1679536530558">
+    <state width="962" height="221" key="GridCell.Tab.0.right/0.0.1463.783@0.0.1463.783" timestamp="1679627050494" />
+    <state width="962" height="221" key="GridCell.Tab.1.bottom" timestamp="1679627050495">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="962" height="334" key="GridCell.Tab.1.left/0.0.1463.783@0.0.1463.783" timestamp="1679536530558" />
-    <state width="962" height="334" key="GridCell.Tab.1.right" timestamp="1679536530558">
+    <state width="962" height="221" key="GridCell.Tab.1.bottom/0.0.1463.783@0.0.1463.783" timestamp="1679627050495" />
+    <state width="962" height="221" key="GridCell.Tab.1.center" timestamp="1679627050495">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state width="962" height="334" key="GridCell.Tab.1.right/0.0.1463.783@0.0.1463.783" timestamp="1679536530558" />
-    <state x="233" y="0" key="SettingsEditor" timestamp="1679538575304">
+    <state width="962" height="221" key="GridCell.Tab.1.center/0.0.1463.783@0.0.1463.783" timestamp="1679627050495" />
+    <state width="962" height="221" key="GridCell.Tab.1.left" timestamp="1679627050495">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="233" y="0" key="SettingsEditor/0.0.1463.783@0.0.1463.783" timestamp="1679538575304" />
+    <state width="962" height="221" key="GridCell.Tab.1.left/0.0.1463.783@0.0.1463.783" timestamp="1679627050495" />
+    <state width="962" height="221" key="GridCell.Tab.1.right" timestamp="1679627050495">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state width="962" height="221" key="GridCell.Tab.1.right/0.0.1463.783@0.0.1463.783" timestamp="1679627050495" />
+    <state x="262" y="49" key="Maven.ArtifactSearchDialog" timestamp="1679624681758">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="262" y="49" key="Maven.ArtifactSearchDialog/0.0.1463.783@0.0.1463.783" timestamp="1679624681758" />
+    <state x="233" y="0" key="SettingsEditor" timestamp="1679553320951">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="233" y="0" key="SettingsEditor/0.0.1463.783@0.0.1463.783" timestamp="1679553320951" />
+    <state x="453" y="139" width="588" height="524" key="StructurePopup" timestamp="1679553549464">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="453" y="139" width="588" height="524" key="StructurePopup/0.0.1463.783@0.0.1463.783" timestamp="1679553549464" />
+    <state x="324" y="127" key="Vcs.Push.Dialog.v2" timestamp="1679539562154">
+      <screen x="0" y="0" width="1463" height="783" />
+    </state>
+    <state x="324" y="127" key="Vcs.Push.Dialog.v2/0.0.1463.783@0.0.1463.783" timestamp="1679539562154" />
     <state x="101" y="55" key="new project wizard" timestamp="1679468539157">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
@@ -205,9 +338,9 @@
       <screen x="0" y="0" width="1463" height="783" />
     </state>
     <state x="388" y="180" width="672" height="677" key="run.anything.popup/0.0.1463.783@0.0.1463.783" timestamp="1679536649702" />
-    <state x="394" y="104" width="672" height="678" key="search.everywhere.popup" timestamp="1679470435486">
+    <state x="394" y="104" width="672" height="678" key="search.everywhere.popup" timestamp="1679554481622">
       <screen x="0" y="0" width="1463" height="783" />
     </state>
-    <state x="394" y="104" width="672" height="678" key="search.everywhere.popup/0.0.1463.783@0.0.1463.783" timestamp="1679470435486" />
+    <state x="394" y="104" width="672" height="678" key="search.everywhere.popup/0.0.1463.783@0.0.1463.783" timestamp="1679554481622" />
   </component>
 </project>

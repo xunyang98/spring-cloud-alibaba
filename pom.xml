@@ -7,6 +7,9 @@
         <module>stock</module>
         <module>order-nacos</module>
         <module>stock-nacos</module>
+        <module>order-ribbon</module>
+        <module>order-openfeign</module>
+        <module>product-nacos</module>
     </modules>
 
     <groupId>com.xunyang</groupId>
