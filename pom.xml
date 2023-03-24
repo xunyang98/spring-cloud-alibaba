@@ -10,6 +10,7 @@
         <module>order-ribbon</module>
         <module>order-openfeign</module>
         <module>product-nacos</module>
+        <module>nacos-config</module>
     </modules>
 
     <groupId>com.xunyang</groupId>
@@ -70,6 +71,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 

@@ -1,0 +1,30 @@
+spring:
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      server-addr: 127.0.0.1:8848
+      config:
+        namespace: 5d91ac45-b25c-4325-aa41-575932224174
+        file-extension: yaml
+        extension-configs[0]:
+          data-id: shared-configuration1.yaml
+          refresh: true
+        extension-configs[1]:
+          data-id: shared-configuration2.yaml
+          refresh: true
+        extension-configs[2]:
+          data-id: shared-configuration1.yaml
+          group: xunyang_group
+          refresh: true
+
+      #        group: xunyang_group
+      discovery:
+        namespace: 5d91ac45-b25c-4325-aa41-575932224174
+#        namespace: public
+
+
+# Nacos Client defaults to be properties
+# You need to state it explicitly if you user other format
+# config.file-extension: yaml
+
